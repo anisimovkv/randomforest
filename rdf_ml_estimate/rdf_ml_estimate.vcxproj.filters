@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="alglib">
+      <UniqueIdentifier>{9295a939-9be4-47b8-9414-d15b25b7d413}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\alglibinternal.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\alglibmisc.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\ap.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\dataanalysis.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\diffequations.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\fasttransforms.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\integration.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\interpolation.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\linalg.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\optimization.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\solvers.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\specialfunctions.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\statistics.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\alglib-3.11.0.cpp.gpl\cpp\src\stdafx.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rdf_ml_estimate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\alglibinternal.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\alglibmisc.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\ap.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\dataanalysis.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\diffequations.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\fasttransforms.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\integration.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\interpolation.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\linalg.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\optimization.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\solvers.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\specialfunctions.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\alglib-3.11.0.cpp.gpl\cpp\src\statistics.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
